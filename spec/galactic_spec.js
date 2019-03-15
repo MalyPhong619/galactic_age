@@ -1,10 +1,10 @@
 import { GalacticAge } from './galacticage.js';
 
 describe('GalacticAge', function() {
-  let userAge;
+  var userAge;
 
   beforeEach(function() {
-    let userAge = new GalacticAge(15, 04, 2002);
+    var userAge = new GalacticAge(15, 04, 2002);
   });
 
   it('should show how beforeEach() works', function() {

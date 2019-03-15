@@ -1,5 +1,5 @@
 // import $ from 'jquery';
-import { GalacticAge } from './galacticage.js';
+// import { GalacticAge } from './galacticage.js';
 
 // $(document).ready(function() {
 //
