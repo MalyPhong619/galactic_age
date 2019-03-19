@@ -3,10 +3,12 @@ export class GalacticAge {
     this.day = day,
     this.month = month,
     this.year = year,
+    this.age = 0,
     this.today = new Date()
   }
 
   userAge() {
-    return (this.today.getFullYear() - this.year);
+    this.age = (this.today.getFullYear() - this.year);
+    return this.age;
   }
 }

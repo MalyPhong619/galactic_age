@@ -19,6 +19,10 @@ describe('GalacticAge', function() {
   it('will return the age of the user', function() {
     expect(inputAge.userAge()).toEqual(29);
   });
+  it('will return the age of the user as part of constructor', function() {
+    inputAge.userAge();
+    expect(inputAge.age).toEqual(29);
+  });
 
 
 });
