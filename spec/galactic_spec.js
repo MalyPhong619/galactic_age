@@ -4,8 +4,8 @@ describe('GalacticAge', function() {
   let inputAge;
 
   beforeEach(function() {
-    let userAge = [15, 4, 2002];
-    inputAge = new GalacticAge(userAge[0], userAge[1], userAge[2]);
+    inputAge = new GalacticAge(15, 4, 2002);
+
   });
   it('should show user age', function() {
     expect(inputAge.day).toEqual(15);
@@ -16,4 +16,10 @@ describe('GalacticAge', function() {
   it('should show user year', function() {
     expect(inputAge.year).toEqual(2002);
   });
+  it('should show user year', function() {
+    expect(inputAge.today).toEqual(Date());
+  });
+
+
+
 });
