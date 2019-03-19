@@ -4,4 +4,5 @@ export class GalacticAge {
     this.month = month,
     this.year = year
   }
+
 }
