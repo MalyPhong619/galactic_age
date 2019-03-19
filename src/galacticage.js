@@ -24,4 +24,8 @@ export class GalacticAge {
     return Math.round(this.age * 1.88);
   }
 
+  jupiterAge() {
+    return Math.round(this.age * 11.86);
+  }
+
 }

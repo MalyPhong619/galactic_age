@@ -32,9 +32,13 @@ describe('GalacticAge', function() {
     expect(inputAge.venusAge()).toEqual(18);
   });
   it('will return the age of the user on Mars', function() {
-      inputAge.userAge();
-      expect(inputAge.marsAge()).toEqual(55);
-    });
+    inputAge.userAge();
+    expect(inputAge.marsAge()).toEqual(55);
+  });
+  it('will return the age of the user on Jupiter', function() {
+    inputAge.userAge();
+    expect(inputAge.jupiterAge()).toEqual(344);
+  });
 
 
 });
