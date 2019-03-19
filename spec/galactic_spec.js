@@ -27,6 +27,10 @@ describe('GalacticAge', function() {
     inputAge.userAge();
     expect(inputAge.mercuryAge()).toEqual(6.96);
   });
+  it('will return the age of the user on Venus', function() {
+    inputAge.userAge();
+    expect(inputAge.venusAge()).toEqual(17.98);
+  });
 
 
 });
