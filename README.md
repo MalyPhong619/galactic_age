@@ -2,7 +2,7 @@
 
 ## Description
 
-A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet. This application will allow the user to determine what their average life expectancy is on Mercury, Venus, Mars, and Jupiter.
+A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet. This application will allow the user to determine what their age would be on Mercury, Venus, Mars, and Jupiter.
 
 #### By Maly Phongsavanh, March 15 2019
 
