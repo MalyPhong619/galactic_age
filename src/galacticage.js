@@ -11,4 +11,8 @@ export class GalacticAge {
     this.age = (this.today.getFullYear() - this.year);
     return this.age;
   }
+
+  mercuryAge() {
+    return this.age * .24;
+  }
 }
