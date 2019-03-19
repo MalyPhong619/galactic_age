@@ -14,13 +14,13 @@ module.exports = {
     contentBase: './dist'
   },
   plugins: [
+    new CleanWebpackPlugin(['dist']),
     new UglifyJsPlugin({ sourceMap: true }),
     new HtmlWebpackPlugin({
       title: 'webpack-template-v5',
       template: './src/index.html',
       inject: 'body'
-    }),
-    new CleanWebpackPlugin(['dist'])
+    })
   ],
   module: {
     rules: [
