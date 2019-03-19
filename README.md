@@ -27,7 +27,6 @@ A solar year lasts 365 days on planet Earth. However, the length of a solar year
 * To run the unit tests with Karma and Jasmine.
   * `npm run test`
 
-    Visit `localhost:9876` to view the tests.
 
 
 ## Specs

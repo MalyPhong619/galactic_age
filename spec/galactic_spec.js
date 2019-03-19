@@ -16,10 +16,6 @@ describe('GalacticAge', function() {
   it('should show user year', function() {
     expect(inputAge.year).toEqual(2002);
   });
-  it('should show user year', function() {
-    expect(inputAge.today).toEqual(Date());
-  });
-
 
 
 });
